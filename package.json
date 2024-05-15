@@ -1,6 +1,6 @@
 {
     "name": "cvpr",
-    "private": true,
+    "private": false,
     "version": "0.0.0",
     "type": "module",
     "homepage": "https://cvpr-lab-iitrpr.github.io/cvpr-lab-iitrpr/#/",
