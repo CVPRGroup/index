@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-# Hosted URL: <a href="https://dishu987.github.io/CVPR_LAB/" target="_blank">https://dishu987.github.io/CVPR_LAB/</a>
+# Hosted URL: https://cvprgroup.github.io/index/#/
 
 ## .env File
 
