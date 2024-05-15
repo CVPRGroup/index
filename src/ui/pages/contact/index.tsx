@@ -24,7 +24,7 @@ const ContactUs: React.FC = () => {
             />
           </div>
           <div className="col-sm-4" id="contact2">
-            <h3 className="fw-bold h1">{import.meta.env.VITE_APP_TITLE}</h3>
+            <h3 className="fw-bold h1">{getsettings?.name}</h3>
             <hr className="text-left w-50" />
             <h4 className="pt-2">Address</h4>
             <i className="fas fa-globe mr-3" style={{ color: "#000" }} />
