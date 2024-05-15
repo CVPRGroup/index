@@ -3,7 +3,7 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
-    "homepage": "cvpr-lab-iitrpr.github.io/index/#",
+    "homepage": "https://cvpr-lab-iitrpr.github.io/cvpr-lab-iitrpr/#/",
     "scripts": {
         "dev": "vite",
         "predeploy": "npm run build",
