@@ -6,7 +6,12 @@ const MainLoader: React.FC = () => {
   return (
     <div
       className="d-flex justify-content-center align-items-center w-100 flex-wrap loader_bg"
-      style={{ height: "100vh", position: "relative", overflow: "hidden" }}
+      style={{
+        height: "100vh",
+        position: "fixed",
+        overflow: "hidden",
+        zIndex: 999,
+      }}
     >
       <div className="position-absolute opacity-25">
         <CanvasAnimation

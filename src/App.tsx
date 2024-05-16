@@ -18,19 +18,15 @@ function App() {
   const [loading, setLoading] = useState<boolean>(true);
   useEffect(() => {
     const handleLoad = async () => {
+      console.log("Started!!");
       await getSiteSettings();
       setLoading(false);
     };
-    window.addEventListener("load", handleLoad);
-    return () => {
-      window.removeEventListener("load", handleLoad);
-    };
+    handleLoad();
   }, []);
-  if (loading) {
-    return <MainLoader />;
-  }
   return (
     <>
+      {loading && <MainLoader />}
       <ScrollToTop />
       {getalerts.length > 0 && (
         <div
